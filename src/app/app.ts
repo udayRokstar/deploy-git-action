@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App implements OnChanges {
   protected readonly title = signal('my-app');
-  inputValue = ' ';
+  inputValue = 'Uday';
   private debounceTimeout?: ReturnType<typeof setTimeout>;
 
   ngOnChanges(changes: SimpleChanges): void {
